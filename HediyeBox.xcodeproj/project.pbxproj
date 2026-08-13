@@ -1,0 +1,69 @@
+// !$*UTF8*$!
+{ archiveVersion = 1; classes = {}; objectVersion = 56; objects = {
+/* Begin PBXBuildFile section */
+5FE2AF4F097D4B2A8665C9E9 /* PiPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4FE7C098264A88B9B8276D /* PiPManager.swift */; };
+187021830F744689B54FC8B3 /* AdvancedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5526A98D79F3482D81B04016 /* AdvancedView.swift */; };
+3AC91AE1DDAE4862BE023EFA /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795C2541A5634379B618CD6B /* RootView.swift */; };
+F09ED017EFBA4615832540AD /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D68B808EE44C8A8662DAFC /* MainView.swift */; };
+7104536C1B90451AB0343C5C /* GiftsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB57BEDE881482788E5A7D5 /* GiftsView.swift */; };
+0B68D0EB8D6E46F89894DAC4 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965720E7C5D049C49D5883DA /* SettingsView.swift */; };
+F51CA0050324413A861D3AAA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D871CD2773B4FFAB95A6962 /* LoginView.swift */; };
+240ABAE30B074B3CA53960CE /* EventLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4CFFEF81BC40C7BBCC7B05 /* EventLogView.swift */; };
+2C8385A278DC400EB3B153F5 /* AppModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E890F6A7EE84E03A6517653 /* AppModels.swift */; };
+CA8572FED7AE4462AA06287C /* HediyeBoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06478D31886F4D92A0C60F40 /* HediyeBoxApp.swift */; };
+B6E2A9A5BC8C40198E46AA72 /* TikTokLiveService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DF23C746944F48A1CAEBB4 /* TikTokLiveService.swift */; };
+57A909BEC0694A25AF8FF53D /* KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDA3E84FF0949B0AD7715DB /* KeychainStore.swift */; };
+D275F3FC69644F80979ADC58 /* GiftCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4433F4FB2984646947645EF /* GiftCatalog.swift */; };
+92738FAA3E9546C6A0D6F599 /* LicenseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEB35FBCC1A449EAC5DE805 /* LicenseService.swift */; };
+D5139F613BA845C784194A8E /* Gifts.json in Resources */ = {isa = PBXBuildFile; fileRef = C0D8EBCB5B8E42AFBD3BB03C /* Gifts.json */; };
+/* End PBXBuildFile section */
+/* Begin PBXFileReference section */
+9D4FE7C098264A88B9B8276D /* PiPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PiP/PiPManager.swift"; sourceTree = "<group>"; };
+5526A98D79F3482D81B04016 /* AdvancedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/AdvancedView.swift"; sourceTree = "<group>"; };
+795C2541A5634379B618CD6B /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/RootView.swift"; sourceTree = "<group>"; };
+79D68B808EE44C8A8662DAFC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/MainView.swift"; sourceTree = "<group>"; };
+1EB57BEDE881482788E5A7D5 /* GiftsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/GiftsView.swift"; sourceTree = "<group>"; };
+965720E7C5D049C49D5883DA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/SettingsView.swift"; sourceTree = "<group>"; };
+2D871CD2773B4FFAB95A6962 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/LoginView.swift"; sourceTree = "<group>"; };
+CC4CFFEF81BC40C7BBCC7B05 /* EventLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/EventLogView.swift"; sourceTree = "<group>"; };
+7E890F6A7EE84E03A6517653 /* AppModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models/AppModels.swift"; sourceTree = "<group>"; };
+06478D31886F4D92A0C60F40 /* HediyeBoxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App/HediyeBoxApp.swift"; sourceTree = "<group>"; };
+E7DF23C746944F48A1CAEBB4 /* TikTokLiveService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services/TikTokLiveService.swift"; sourceTree = "<group>"; };
+BDDA3E84FF0949B0AD7715DB /* KeychainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services/KeychainStore.swift"; sourceTree = "<group>"; };
+C4433F4FB2984646947645EF /* GiftCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services/GiftCatalog.swift"; sourceTree = "<group>"; };
+ADEB35FBCC1A449EAC5DE805 /* LicenseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services/LicenseService.swift"; sourceTree = "<group>"; };
+C0D8EBCB5B8E42AFBD3BB03C /* Gifts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Resources/Gifts.json"; sourceTree = "<group>"; };
+3B51EB40D1B04AD086EDF831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+1A33667C6A8143209F926B11 /* HediyeBox.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HediyeBox.entitlements; sourceTree = "<group>"; };
+54D81303DAC74053AB66E8AE /* HediyeBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = HediyeBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+/* Begin PBXGroup section */
+24ED56618CA14BFB80894442 = {isa=PBXGroup; children=(9D4FE7C098264A88B9B8276D /* PiPManager.swift */,5526A98D79F3482D81B04016 /* AdvancedView.swift */,795C2541A5634379B618CD6B /* RootView.swift */,79D68B808EE44C8A8662DAFC /* MainView.swift */,1EB57BEDE881482788E5A7D5 /* GiftsView.swift */,965720E7C5D049C49D5883DA /* SettingsView.swift */,2D871CD2773B4FFAB95A6962 /* LoginView.swift */,CC4CFFEF81BC40C7BBCC7B05 /* EventLogView.swift */,7E890F6A7EE84E03A6517653 /* AppModels.swift */,06478D31886F4D92A0C60F40 /* HediyeBoxApp.swift */,E7DF23C746944F48A1CAEBB4 /* TikTokLiveService.swift */,BDDA3E84FF0949B0AD7715DB /* KeychainStore.swift */,C4433F4FB2984646947645EF /* GiftCatalog.swift */,ADEB35FBCC1A449EAC5DE805 /* LicenseService.swift */,C0D8EBCB5B8E42AFBD3BB03C /* Gifts.json */,3B51EB40D1B04AD086EDF831 /* Info.plist */,1A33667C6A8143209F926B11 /* HediyeBox.entitlements */,9C37AF4258964084ABFE3A78 /* Products */); path=HediyeBox; sourceTree="<group>";};
+9C37AF4258964084ABFE3A78 /* Products */ = {isa=PBXGroup; children=(54D81303DAC74053AB66E8AE /* HediyeBox.app */); name=Products; sourceTree="<group>";};
+/* End PBXGroup section */
+/* Begin PBXFrameworksBuildPhase section */
+81B9CD430C37437186CA33AB= {isa=PBXFrameworksBuildPhase; buildActionMask=2147483647; files=(); runOnlyForDeploymentPostprocessing=0;};
+/* End PBXFrameworksBuildPhase section */
+/* Begin PBXNativeTarget section */
+125FA540F42A463FA6D21883 /* HediyeBox */ = {isa=PBXNativeTarget; buildConfigurationList=C1FBD303892A4E0DB016B4CC; buildPhases=(41BB99E34C43432F8B4FB8D5,81B9CD430C37437186CA33AB,E0363F2F5EFF41409AAC7BD4); buildRules=(); dependencies=(); name=HediyeBox; productName=HediyeBox; productReference=54D81303DAC74053AB66E8AE; productType="com.apple.product-type.application";};
+/* End PBXNativeTarget section */
+/* Begin PBXProject section */
+69AEB533F9B84438A7409D69 = {isa=PBXProject; attributes={BuildIndependentTargetsInParallel=1; LastSwiftUpdateCheck=1600; LastUpgradeCheck=1600; TargetAttributes={125FA540F42A463FA6D21883={CreatedOnToolsVersion=16.0;};};}; buildConfigurationList=C99C4964E4054B588F84B6C8; compatibilityVersion="Xcode 14.0"; developmentRegion=en; hasScannedForEncodings=0; knownRegions=(en,Base); mainGroup=24ED56618CA14BFB80894442; productRefGroup=9C37AF4258964084ABFE3A78; projectDirPath=""; projectRoot=""; targets=(125FA540F42A463FA6D21883);};
+/* End PBXProject section */
+/* Begin PBXResourcesBuildPhase section */
+E0363F2F5EFF41409AAC7BD4={isa=PBXResourcesBuildPhase;buildActionMask=2147483647;files=(D5139F613BA845C784194A8E);runOnlyForDeploymentPostprocessing=0;};
+/* End PBXResourcesBuildPhase section */
+/* Begin PBXSourcesBuildPhase section */
+41BB99E34C43432F8B4FB8D5={isa=PBXSourcesBuildPhase;buildActionMask=2147483647;files=(5FE2AF4F097D4B2A8665C9E9,187021830F744689B54FC8B3,3AC91AE1DDAE4862BE023EFA,F09ED017EFBA4615832540AD,7104536C1B90451AB0343C5C,0B68D0EB8D6E46F89894DAC4,F51CA0050324413A861D3AAA,240ABAE30B074B3CA53960CE,2C8385A278DC400EB3B153F5,CA8572FED7AE4462AA06287C,B6E2A9A5BC8C40198E46AA72,57A909BEC0694A25AF8FF53D,D275F3FC69644F80979ADC58,92738FAA3E9546C6A0D6F599);runOnlyForDeploymentPostprocessing=0;};
+/* End PBXSourcesBuildPhase section */
+/* Begin XCBuildConfiguration section */
+E83DAFD2ADC844C3AB7C181B={isa=XCBuildConfiguration;buildSettings={IPHONEOS_DEPLOYMENT_TARGET=16.0;SDKROOT=iphoneos;SWIFT_VERSION=5.0;};name=Debug;};
+6387D71F6B794AC4A9209E0E={isa=XCBuildConfiguration;buildSettings={IPHONEOS_DEPLOYMENT_TARGET=16.0;SDKROOT=iphoneos;SWIFT_VERSION=5.0;};name=Release;};
+12D349BF95D342F797070FA0={isa=XCBuildConfiguration;buildSettings={CODE_SIGN_ENTITLEMENTS=HediyeBox/HediyeBox.entitlements;CODE_SIGN_STYLE=Automatic;CURRENT_PROJECT_VERSION=1;GENERATE_INFOPLIST_FILE=NO;INFOPLIST_FILE=HediyeBox/Info.plist;IPHONEOS_DEPLOYMENT_TARGET=16.0;MARKETING_VERSION=13.2;PRODUCT_BUNDLE_IDENTIFIER=com.kadir.hediyebox.ios;PRODUCT_NAME="$(TARGET_NAME)";SWIFT_EMIT_LOC_STRINGS=YES;SWIFT_VERSION=5.0;TARGETED_DEVICE_FAMILY="1,2";};name=Debug;};
+DD9D5A9FEFC04485BCA01998={isa=XCBuildConfiguration;buildSettings={CODE_SIGN_ENTITLEMENTS=HediyeBox/HediyeBox.entitlements;CODE_SIGN_STYLE=Automatic;CURRENT_PROJECT_VERSION=1;GENERATE_INFOPLIST_FILE=NO;INFOPLIST_FILE=HediyeBox/Info.plist;IPHONEOS_DEPLOYMENT_TARGET=16.0;MARKETING_VERSION=13.2;PRODUCT_BUNDLE_IDENTIFIER=com.kadir.hediyebox.ios;PRODUCT_NAME="$(TARGET_NAME)";SWIFT_EMIT_LOC_STRINGS=YES;SWIFT_VERSION=5.0;TARGETED_DEVICE_FAMILY="1,2";};name=Release;};
+/* End XCBuildConfiguration section */
+/* Begin XCConfigurationList section */
+C99C4964E4054B588F84B6C8={isa=XCConfigurationList;buildConfigurations=(E83DAFD2ADC844C3AB7C181B,6387D71F6B794AC4A9209E0E);defaultConfigurationIsVisible=0;defaultConfigurationName=Release;};
+C1FBD303892A4E0DB016B4CC={isa=XCConfigurationList;buildConfigurations=(12D349BF95D342F797070FA0,DD9D5A9FEFC04485BCA01998);defaultConfigurationIsVisible=0;defaultConfigurationName=Release;};
+/* End XCConfigurationList section */
+}; rootObject=69AEB533F9B84438A7409D69; }
