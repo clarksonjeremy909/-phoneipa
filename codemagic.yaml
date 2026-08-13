@@ -8,6 +8,11 @@ workflows:
       xcode: latest
 
     scripts:
+      - name: Restore source files
+        script: |
+          bash restore_core.sh
+          bash restore_views.sh
+
       - name: Show Xcode version
         script: xcodebuild -version
 
